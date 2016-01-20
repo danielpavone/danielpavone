@@ -4,5 +4,12 @@ module.exports = function(grunt){
 	grunt.loadTasks('./tasks');
 
 	grunt.registerTask('dev', ['concurrent:dev']);
+    
+    grunt.registerTask('prod', [
+        'clean:build',
+        'less:build',
+        'copy:build_index',
+        'htmlmin:build'
+    ]);
 	
 };
