@@ -14,8 +14,6 @@ module.exports = function(grunt){
 					'project/assets/bower_components/sanitize-css/dist/sanitize.min.css',
 					'project/assets/bower_components/bootstrap/less/bootstrap.less',
 					'project/assets/bower_components/font-awesome/font-awesome.min.css',
-//					'project/assets/css/components/base/variable.less',
-//					'project/assets/css/components/base/base.less',
 					'project/assets/css/components/**/*.less'		
 				]
 			}
