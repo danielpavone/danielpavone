@@ -10,10 +10,11 @@ module.exports = function(grunt){
 				optimization: 2
 			},
 			files: {
-				'dist/assets/css/style.min.css': [
+				'dist/assets/css/styles.min.css': [
 					'project/assets/bower_components/sanitize-css/dist/sanitize.min.css',
 					'project/assets/bower_components/bootstrap/less/bootstrap.less',
-					'project/assets/bower_components/font-awesome/font-awesome.min.css',
+					'project/assets/bower_components/font-awesome/css/font-awesome.min.css',
+					'project/assets/bower_components/roboto-fontface/css/roboto-fontface.css',
 					'project/assets/css/components/**/*.less'		
 				]
 			}

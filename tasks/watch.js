@@ -4,7 +4,14 @@ module.exports = function(grunt){
 	grunt.config('watch', {
 		styles: {
 			files: ['project/assets/css/components/**/*.less'],
-			tasks: ['less:build'],
+			tasks: ['less:build', 'replace:build'],
+			options: {
+				nospawn: true
+			}
+		},
+		scripts:{
+			files: ['project/assets/js/*.js'],
+			tasks: ['uglify:build'],
 			options: {
 				nospawn: true
 			}

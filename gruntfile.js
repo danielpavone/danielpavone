@@ -8,7 +8,9 @@ module.exports = function(grunt){
     grunt.registerTask('prod', [
         'clean:build',
         'less:build',
-        'copy:build_index',
+        'uglify:build',
+        'copy:build',
+        'replace:build',
         'htmlmin:build'
     ]);
 	
