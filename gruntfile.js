@@ -11,6 +11,8 @@ module.exports = function(grunt){
         'uglify:build',
         'copy:build',
         'replace:build',
+        'purifycss:build',
+        'less:dist',
         'htmlmin:build'
     ]);
 	
