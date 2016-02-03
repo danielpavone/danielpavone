@@ -10,9 +10,9 @@ module.exports = function(grunt){
         'less:build',
         'uglify:build',
         'copy:build',
-        'replace:build',
         'purifycss:build',
         'less:dist',
+        'replace:build',
         'htmlmin:build'
     ]);
 	
